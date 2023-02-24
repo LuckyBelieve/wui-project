@@ -62,7 +62,7 @@ main{
 .introduction{
     width: 100%;
    height: 485px;
-   background-image:url(./tools/Rectangle\ 6.svg);
+   background-image:url(./tools/Rectangle6.svg);
    background-repeat: no-repeat;
    background-size: 100%;
    background-position: center;
@@ -336,7 +336,7 @@ footer{
 .allsign{
     width: 1260px;
     padding-top: 10px;
-    background-image:url(./tools/Rectangle\ 6.svg);
+    background-image:url(./tools/Rectangle6.svg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
