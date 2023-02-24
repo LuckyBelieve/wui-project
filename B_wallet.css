@@ -57,7 +57,7 @@ header{
 main{
     position: relative;
     top: 84px;
-    width: 1403.7px;
+    width:1260px;   
 }
 .introduction{
     width: 100%;
@@ -322,7 +322,7 @@ footer{
     margin-top: 10px;
     background-color: #2196f3;
     height: 50px;
-    width: 1403.7px;
+    width: 1260px;
     position: relative;
     top: 84px;
     display: flex;
@@ -334,7 +334,7 @@ footer{
                                       /* signup page */ 
 
 .allsign{
-    width: 1422px;
+    width: 1260px;
     padding-top: 10px;
     background-image:url(./tools/Rectangle\ 6.svg);
     background-repeat: repeat;
