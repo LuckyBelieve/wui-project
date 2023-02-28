@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Montserrat:wght@300;400;600;700&family=Outfit:wght@400;700&family=Tajawal:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,6 @@
 body{
     width: 1260px;
     height: fit-content;
-    margin: 0;
     font-family: 'Lexend', sans-serif;
     background-color: #e0e6dd;
 }
@@ -31,7 +32,7 @@ header{
 } */
 .navigation{
     height:100%;
-    width: 500px;
+    width: 550px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -83,8 +84,8 @@ main{
     font-size: 3em;
     align-items: center;
     background: linear-gradient( to right, #3058b4,  #f1f1f4, #2196f3,#eaeaec, #ecf0ec);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
  }
  .headerr h1 span{
     border-bottom: 5px solid rgb(33, 71, 154);
@@ -212,6 +213,7 @@ main{
     padding: 0px 25px;
     width: 250px;
     height: 230px;
+    font-size: 20px;
     border-radius:20px;
     background-color: rgba(27, 35, 231, 79%);
     display: flex;
@@ -229,6 +231,7 @@ main{
     width: 60px;
 }
 .contact h3{
+    font-size: 0.8em;
     text-align: center;
 }
 .contact button{
@@ -410,4 +413,173 @@ form{
     color: #D9D9D9;
 }
 
-                              /* home page */
+                              /* reviews page */
+
+.body{
+    font-family: 'League Spartan',sans-serif;
+    width: auto;
+    height: fit-content;
+    background:url('./tools/Rectangle6.jpg')  no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header2{
+    position: fixed;
+    top: 0px;
+}
+.main{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+div:nth-of-type(3){
+    grid-column:1/3 ;
+}
+.introduction2{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-family: 'League Spartan',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    width: 200px;
+    background: linear-gradient( to right, #30a9b4,  #f1f1f4, #8cbae0,#eaeaec, #f0edec);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.descri{
+    width: 390px;
+    margin-top: 40px;
+    color: hsl(240, 67%, 99%);
+}
+.rating{
+    margin-left: 4.375rem;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+.one span{
+    color: rgba(220, 165, 13, 0.813);
+}
+.one{
+    width: 300px;
+    height: 40px;
+    background: hsl(300, 12%, 88%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 7px;
+    
+}
+.one:nth-of-type(2){
+    align-self: center;
+}
+.one:nth-of-type(3){
+    align-self: end;
+}
+.reviews{
+    height: 300px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.person1{
+    margin: 15px;
+    background: hsl(216, 78%, 23%);
+    width: 300px;
+    height:190px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.name{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 3px;
+}
+.status{
+    color: hsl(203, 59%, 58%);
+}
+.person-info{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.person-info img{
+    width: 30px;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+.det{
+    padding: 0 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14.3px;
+    opacity: 90%;
+}
+.person1:nth-of-type(1){
+    margin-left: 0;
+}
+.person1:nth-of-type(2){
+    align-self: center;
+}
+.person1:nth-of-type(3){
+    margin-right: 0;
+    align-self: end;
+}
+
+           /* mobile qr code  */
+
+.image>img{
+    width: 260px;
+    border-radius: 10px;
+}
+.body2{
+     font-family:'outfit',sans-serif;
+    font-weight: 400;
+     min-height: 100vh;
+    background:url('./tools/Rectangle6.jpg') no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main2{
+    width: 290px;
+    height: 445px;
+    background:  hsla(0, 0%, 100%, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1.25rem;
+    padding: 16px;
+}
+.main-heading{
+    font-size:1rem ;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    text-align: center;
+    color: hsl(217, 39%, 27%);
+    
+    
+}
+.content{
+    font-size: 0.9375rem;
+    margin-top: 12px;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    opacity: 50%;
+    color: hsl(0, 0%, 0%);
+}
+.cont{
+    margin-top: 12px;
+}
