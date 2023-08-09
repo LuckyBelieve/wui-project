@@ -13,6 +13,7 @@ body{
     background-color: #e0e6dd;
 }
 
+
 header{
     width: 100%;
     height: 84px;
@@ -27,9 +28,6 @@ header{
     width: 250px;
     text-align: center;
 }
-/* .logo img{
-    width: 150px;
-} */
 .navigation{
     height:100%;
     width: 550px;
